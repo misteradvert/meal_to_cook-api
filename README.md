@@ -1,1 +1,2 @@
-# meal_to_cook_SSR
+# What meal to cook today? 
+Meal recipe generator application (SSR + API).
