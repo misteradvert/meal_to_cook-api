@@ -18,3 +18,7 @@ If you would like to find all meal by any ingredient or you know the exact name 
 Type in a meal's name or ingredient and you'll get all meals which contain your request.
 
 ![Categories](./img/meal_search.png)
+
+## 📝 License
+
+This project is licensed under the Copyright © 2024 Ivan Ivanov.
