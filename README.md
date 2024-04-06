@@ -1,79 +1,20 @@
-# Elbrus Bootcamp Vite bundle
+# 🍲 What meal to cook today? 
+Meal recipe generator application (SSR + API).
 
-## React + Typescript + ESLint + Prettier
+![Main](./img/meal_main.png)
 
-Современный быстрый сборщик React проекта на Typescript с предустановленными настройками ESLint и Prettier от Elbrus Bootcamp.
+# 🍔 Random meal
+When you click the "Generate meal" button on a Home page API generates a random meal recipe. So you can checkout out the full description and read the full text recipe by clicking "Get full recipe".
 
-## Использование
+![Random meal](./img/meal_random.png)
 
-```
-npx degit Elbrus-Bootcamp/vite-react-ts my-app
+# 🧑🏼‍🍳 Meal categories
+You can also check out different categories of meals:
 
-cd my-app
+![Categories](./img/meal_cat.png)
 
-npm i
-```
+# 🥕 Find a meal by its name or ingredient!
+If you would like to find all meal by any ingredient or you know the exact name of the meal you can use a search input.
+Type in a meal's name or ingredient and you'll get all meals which contain your request.
 
-## Скрипты
-
-- Запустить в режиме разработки
-
-```
-npm run dev
-```
-
-- Собрать проект
-
-```
-npm run build
-```
-
-- Превью
-
-```
-npm run preview
-```
-
-## `ENV`
-
-Для подключения переменных окружения нужно описать их в файле `.env` в корне. Переменные окружения можно получить из объекта `import.meta.env`. Чтобы Typescript подсказывал, какими переменными окружения можно пользоваться, их нужно прописать в файле `src/env.d.ts`. Только переменные с префиксом `VITE_` передаются на клиент.
-
-## `settings.json`
-
-Чтобы настроить форматирование и линтование по сохранению, необходимо прописать в `settings.json` (ctrl + shift + P) следующие настройки:
-
-```json
-{
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  },
-  "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
-}
-```
-
-Можно добавить форматирование Prettier для JS и React:
-
-```json
-{
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
-}
-```
-
-При работе не из корневой директории необходимо настроить CWD для ESLint:
-
-```json
-{
-  "eslint.workingDirectories": [
-    { "directory": "./client", "changeProcessCWD": true },
-    { "directory": "./server", "changeProcessCWD": true }
-  ]
-}
-```
-
-Если директория не `client` или `server`, то можно добавить соответствующую строчку в данный массив.
+![Categories](./img/meal_search.png)
