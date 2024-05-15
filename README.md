@@ -1,5 +1,5 @@
 # 🍲 What meal to cook today? 
-Meal recipe generator application (SSR + API).
+Meal recipe generator application (API).
 
 ![Main](./img/meal_main.png)
 
